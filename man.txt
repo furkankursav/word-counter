@@ -1,0 +1,45 @@
+NAME
+
+    Word Counter of Furkan Kursav
+
+OPTIONS
+   
+    [-l]
+        - actives line counter.
+
+    [-w]
+        - activates word counter.
+    
+    [-c]
+        - activates char counter.
+
+SYNOPSIS
+
+    ks [filename]
+       - prints lines, words and char counters if the given file found.
+
+    ks [-l] [filename]
+       - prints only line counts, if the given file found.
+
+    ks [-w] [filename]
+       - prints only word counts, if the given file found.
+
+    ks [-c] [filename]
+       - prints only char counts, if the given file found.
+
+    ks [-l] [-w] [-c] [filename]
+       - prints lines, words and char counters if the given file found.
+
+    ks [firstfile] [secondfile] ...
+       - prints all details(lines, words and char counters) for given files.
+
+    ks [firstfile] + [secondfile] ...
+       - prints all details(lines, words and char counters) for given files and also reads from standart input.
+
+DESCRIPTION
+
+    This programs counts lines, words and charaters from file or terminal. You can use it for count.
+
+AUTHOR
+    Furkan KURSAV -> furkankursav@hotmail.com
+
